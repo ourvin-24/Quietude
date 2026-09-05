@@ -1,0 +1,132 @@
+/* Reset & Pengaturan Dasar (Tema Dark Mode / Menyendiri) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 27px;
+}
+
+/* Header & Navigasi */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #888888;
+}
+
+/* Tata Letak Galeri (Responsif Grid) */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.card-info h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.card-info p {
+  font-size: 0.85rem;
+  color: #777777;
+  margin-top: 5px;
+}
+
+/* Tentang Seniman & Footer */
+.about-section {
+  max-width: 600px;
+  margin: 0 auto 60px;
+  text-align: center;
+  border-top: 1px solid #2a2a2a;
+  padding-top: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #666666;
+  border-top: 1px solid #2a2a2a;
+}
+
+.contact-link {
+  color: #a0a0a0;
+  text-decoration: underline;
+}
+
+/* Efek Transisi Animasi untuk Kartu Galeri */
+.card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Status saat kartu masuk ke area layar HP */
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
