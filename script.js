@@ -105,18 +105,18 @@ const artworks = [
     description: "The artwork, titled 'The Rooted Isolation', explores the profound boundary between self-preservation and complete detachment. Rendered in raw, scribbled black-and-white lines, a solitary figure stands atop a small mound, surrounded by a glowing aura against two dark, swirling vortexes above. Beneath the mound, a dense, thorny network of roots forms an impenetrable ringed barrier, keeping a sea of desperate hands reaching from below at bay. Floating spiral eyes watch passively from the background, adding an air of cold observation. The piece powerfully visualizes how the walls we anchor ourselves upon—meant to shield us from external chaos, judgment, or connection—can deeply root us in a fortress of our own lonely making."
   },
   {
-  id: "12",
-  title: "The Stand Monolith",
-  meta: "Scribble Art, 2026",
-  image: "art12.jpg",
-  description: "The Artwork, Titled 'The Stand Monolith', depicts a lone, shadowy figure, chained at the leg, standing defensively in a swirling, black-and-grey void. Armed with a flail, the figure is under the surveillance of seven disembodied eyes, evoking a powerful sense of unyielding defiance and perpetual observation. This monochromatic sketch, signed by Z, powerfully conveys a central theme of stoic endurance."
+    id: "12",
+    title: "The Stand Monolith",
+    meta: "Scribble Art, 2026",
+    image: "art12.jpg",
+    description: "The Artwork, Titled 'The Stand Monolith', depicts a lone, shadowy figure, chained at the leg, standing defensively in a swirling, black-and-grey void. Armed with a flail, the figure is under the surveillance of seven disembodied eyes, evoking a powerful sense of unyielding defiance and perpetual observation. This monochromatic sketch, signed by Z, powerfully conveys a central theme of stoic endurance."
   },
   {
-  id: "13",
-  title: "Breathe",
-  meta: "Scribble Art, 2026",
-  image: "art13.jpg",
-  description: "The Artwork, Titled 'Breathe', A contemplative black-and-white sketch shows a figure resting on a grassy hill, looking up at a sky full of complex, tangled lines. This piece, titled Breathe, powerfully uses simple strokes to contrast the figure’s moment of stillness with the intricate patterns of a chaotic world or mind, inviting the viewer to find a breath of peace in the disorder."
+    id: "13",
+    title: "Breathe",
+    meta: "Scribble Art, 2026",
+    image: "art13.jpg",
+    description: "The Artwork, Titled 'Breathe', A contemplative black-and-white sketch shows a figure resting on a grassy hill, looking up at a sky full of complex, tangled lines. This piece, titled Breathe, powerfully uses simple strokes to contrast the figure’s moment of stillness with the intricate patterns of a chaotic world or mind, inviting the viewer to find a breath of peace in the disorder."
   },
 ];
 
