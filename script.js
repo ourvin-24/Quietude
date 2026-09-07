@@ -116,7 +116,7 @@ const artworks = [
   title: "Breathe",
   meta: "Scribble Art, 2026",
   image: "art13.jpg",
-  description: ""
+  description: "The Artwork, Titled 'Breathe', A contemplative black-and-white sketch shows a figure resting on a grassy hill, looking up at a sky full of complex, tangled lines. This piece, titled Breathe, powerfully uses simple strokes to contrast the figure’s moment of stillness with the intricate patterns of a chaotic world or mind, inviting the viewer to find a breath of peace in the disorder."
   },
 ];
 
