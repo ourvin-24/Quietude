@@ -109,7 +109,7 @@ const artworks = [
   title: "The Stand Monolith",
   meta: "Scribble Art, 2026",
   image: "art12.jpg",
-  description: "The Artwork, Titled 'The Stand Monolith',"
+  description: "The Artwork, Titled 'The Stand Monolith', depicts a lone, shadowy figure, chained at the leg, standing defensively in a swirling, black-and-grey void. Armed with a flail, the figure is under the surveillance of seven disembodied eyes, evoking a powerful sense of unyielding defiance and perpetual observation. This monochromatic sketch, signed by Z, powerfully conveys a central theme of stoic endurance."
   },
 ];
 
