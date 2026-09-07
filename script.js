@@ -104,6 +104,13 @@ const artworks = [
     image: "art11.jpg",
     description: "The artwork, titled 'The Rooted Isolation', explores the profound boundary between self-preservation and complete detachment. Rendered in raw, scribbled black-and-white lines, a solitary figure stands atop a small mound, surrounded by a glowing aura against two dark, swirling vortexes above. Beneath the mound, a dense, thorny network of roots forms an impenetrable ringed barrier, keeping a sea of desperate hands reaching from below at bay. Floating spiral eyes watch passively from the background, adding an air of cold observation. The piece powerfully visualizes how the walls we anchor ourselves upon—meant to shield us from external chaos, judgment, or connection—can deeply root us in a fortress of our own lonely making."
   },
+  {
+  id: "12",
+  title: "The Stand Monolith",
+  meta: "Scribble Art, 2026",
+  image: "art12.jpg",
+  description: "The Artwork, Titled 'The Stand Monolith',"
+  },
 ];
 
 // Menangkap parameter URL (misal: detail.html?id=1)
